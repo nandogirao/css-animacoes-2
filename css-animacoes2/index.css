@@ -1,0 +1,23 @@
+:root{
+ --grande: 36px;
+}
+
+h1{
+    font-size: var(--grande);
+}
+.titulo-grande {
+    font-size: var(--grande);
+
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+@media (width <=600px) {
+    :root{
+        --grande: 18px;
+}
+}
